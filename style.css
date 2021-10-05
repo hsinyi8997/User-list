@@ -1,0 +1,32 @@
+.card-title {
+  text-align: center;
+  padding-top: 30px;
+  margin: 0;
+  font-size: 20px;
+}
+
+img {
+  margin: 0 auto;
+}
+
+.card {
+  /* box-shadow: inset 5em 2em gold */
+  box-shadow: 6px 5px 5px darkgray;
+  cursor: pointer;
+}
+
+.card:hover {
+  background-color: lightyellow;
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+.search-icon {
+  padding-right: 10px;
+  padding-left: 20px;
+  padding-bottom: 5px;
+}
+
+.pagination-nav {
+  margin-top: 5px;
+}
